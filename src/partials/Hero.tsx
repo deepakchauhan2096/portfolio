@@ -10,20 +10,26 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Deepak</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          Experienced{' '}
+          <a className="text-cyan-400 hover:underline">React JS Developer</a>{' '}
+          with 2+ years of expertise in{' '}
+          <a className="text-cyan-400 hover:underline">
+            frontend web development
+          </a>
+          , proficient in{' '}
+          <a className="text-cyan-400 hover:underline">JavaScript</a>,{' '}
+          <a className="text-cyan-400 hover:underline">React.js</a>,{' '}
+          <a className="text-cyan-400 hover:underline">Redux</a>, and{' '}
+          <a className="text-cyan-400 hover:underline">HTML5/CSS</a>. Seeking a
+          challenging role to leverage my skills and contribute to creating
+          innovative and usercentric web applications. Passionate about
+          optimizing user experiences through clean and efficient code while
+          staying updated with the latest industry trends and technologies.
         </>
       }
       avatar={
@@ -36,28 +42,25 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="/">
+          <a href="https://twitter.com/Dipakchauhan96" target="_blank">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
+              alt="https://twitter.com/Dipakchauhan96"
             />
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
+          <a
+            href="https://www.linkedin.com/in/deepakchauhan2096/"
+            target="_blank"
+          >
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
+              alt="https://www.linkedin.com/in/deepakchauhan2096/"
             />
           </a>
-          <a href="/">
+          <a href="https://www.youtube.com/@jankariya_24" target="_blank">
             <HeroSocial
               src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
+              alt="https://www.youtube.com/@jankariya_24"
             />
           </a>
         </>
